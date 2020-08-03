@@ -1,0 +1,136 @@
+.Principles {
+    width: calc( 100% + 30px);
+    clear: both;
+    margin: 150px -15px;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.Principles__item {
+    padding: 0 15px;
+    width: 33.33%;
+    float: left;
+    box-sizing: border-box;
+}
+
+.Principles__number {
+    width: 15%;
+    float: left;
+    color: #6600CC;
+    font-family: Gilroy, Arial;
+    font-size: 36px;
+    line-height: 120%;
+    font-weight: bold;
+    box-sizing: border-box;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.Principles__description {
+    width: 85%;
+    float: left;
+    padding: 20px 15px;
+
+    font-family: Circe, Arial;
+    font-size: 16px;
+    line-height: 150%;
+    box-sizing: border-box;
+}
+
+.Principles__item:hover {
+    background: #F9F9F9;
+}
+
+main.active .Principles__item:hover {
+    background: none;
+}
+
+.Principles__header {
+    padding: 0 15px;
+    font-family: Gilroy, Arial;
+    font-size: 48px;
+    line-height: 130%;
+    font-weight: bold;
+
+    margin-bottom: 25px;
+}
+
+.Principles__header h2 {
+    display: inline-block;
+    font-size: inherit;
+    line-height: inherit;
+    margin: 0;
+}
+
+
+.Principles__specification {
+    padding: 0 15px;
+    font-family: Circe, Arial;
+    font-size: 18px;
+    line-height: 150%;
+    padding-right: 40%;
+    margin-bottom: 25px;
+}
+
+.Principles__name {
+    font-size: 22px;
+    line-height: 130%;
+
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+@media (max-width: 1000px) {
+    .Principles__header {
+        font-size: 32px;
+    }
+
+    .Principles__specification {
+        width: 100%;
+
+    }
+
+    .Principles__description {
+        font-size: 14px;
+    }
+
+    .Principles__number {
+        font-size: 28px;
+    }
+
+    .Principles {
+        margin: 100px -15px;
+    }
+
+}
+
+
+@media (max-width: 767px) {
+    .Principles__header {
+        font-size: 22px;
+    }
+
+    .Principles__specification {
+        font-size: 14px;
+        padding-right: 15px;
+    }
+
+    .Principles__item {
+        width: 100%;
+    }
+
+
+    .Principles__description {
+        font-size: 12px;
+        padding: 20px 0 20px 10px;
+    }
+
+    .Principles__number {
+        font-size: 24px;
+    }
+
+    .Principles {
+        margin: 50px -15px;
+    }
+
+}

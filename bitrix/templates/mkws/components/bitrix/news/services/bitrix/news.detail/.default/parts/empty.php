@@ -1,0 +1,1 @@
+<?$APPLICATION->IncludeComponent("bitrix:main.include", "", Array("AREA_FILE_SHOW" => "file", "PATH" => "/include/in_work.php"));?>

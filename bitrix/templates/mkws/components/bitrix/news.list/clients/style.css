@@ -1,0 +1,128 @@
+.Clients__header {
+    font-family: Gilroy, Arial;
+    font-size: 48px;
+    line-height: 130%;
+    font-weight: bold;
+    color: #fff;
+    margin-bottom: 40px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.Clients__header h2 {
+    margin: 0;
+    font-size: inherit;
+    line-height: inherit;
+}
+
+.Clients__specification {
+    font-family: Circe, Arial;
+    font-size: 18px;
+    line-height: 150%;
+    color: #fff;
+    width: 50%;
+    float: left;
+    box-sizing: border-box;
+    padding-right: 8.33%;
+}
+
+.Clients {
+    clear: both;
+    display: flex;
+    flex-flow: row wrap;
+    background: #212121;
+    width: 100%;
+    padding: 100px 0;
+    margin-top: -1px;
+    overflow: hidden;
+}
+
+
+.ClientsBlock {
+    width: 90%;
+    margin: AUTO;
+    box-sizing: border-box;
+    /*display: flex;*/
+    /*flex-wrap: wrap;*/
+    /*text-align: center;*/
+}
+
+.ClientsBlock  .slides {
+    display: flex;
+    align-items: center;
+}
+
+.ClientsBlock__item {
+    padding: 15px;
+    width: 33.33%;
+    float: left;
+    box-sizing: border-box;
+    text-align: center;
+    display: flex!important;
+    align-items: center;
+    justify-content: center;
+}
+
+.ClientsBlock__item img {
+    max-width: 100%;
+}
+
+.ClientsBlocks {
+    width: 1380px;
+    margin: auto;
+    padding: 0 15px;
+}
+
+@media (max-width: 1380px) {
+    .ClientsBlocks {
+        width: 100%;
+    }
+}
+
+@media (max-width: 1000px) {
+    .Clients__header {
+        font-size: 32px;
+    }
+
+    .ClientsBlock,
+    .Clients__specification {
+        width: 100%;
+
+    }
+
+    .Clients__specification {
+        margin-bottom: 25px;
+        padding-right: 15px;
+    }
+
+
+}
+
+
+@media (max-width: 767px) {
+    .Clients__header {
+        font-size: 22px;
+        padding: 0;
+        text-align: center;
+    }
+
+
+    .Clients__specification {
+        font-size: 14px;
+        padding: 0 0 20px 0;
+    }
+
+    .ClientsBlock {
+        width: calc( 100% + 30px);
+        margin: 0 -15px;
+    }
+
+    .Clients {
+        padding: 50px 0;
+    }
+
+    .ClientsBlock__item {
+        width: 50%;
+    }
+
+}

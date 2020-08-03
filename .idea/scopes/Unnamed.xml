@@ -1,0 +1,3 @@
+<component name="DependencyValidationManager">
+  <scope name="Unnamed" pattern="file:bitrix/templates/mkws/components/bitrix/news/services/bitrix/news.detail/.default/parts/full.php||file:bitrix/templates/mkws/components/bitrix/news/services/bitrix/news.detail/.default/parts/empty.php" />
+</component>
